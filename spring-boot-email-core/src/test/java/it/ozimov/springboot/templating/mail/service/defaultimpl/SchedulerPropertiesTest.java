@@ -16,12 +16,13 @@
 
 package it.ozimov.springboot.templating.mail.service.defaultimpl;
 
+import it.ozimov.springboot.templating.mail.UnitTest;
 import org.assertj.core.api.JUnitSoftAssertions;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-public class SchedulerPropertiesTest {
+public class SchedulerPropertiesTest implements UnitTest {
 
     @Rule
     public final ExpectedException expectedException = ExpectedException.none();
